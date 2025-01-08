@@ -3,7 +3,7 @@
 *not final, tbd final tokenomics*
 
 ## Abstract
-> The RAIR web3 infrastructure stack enables the creation of scalable Dapps through an open token licensing model. The RAIR open token license inherits the Apache 2.0 methodology by requiring a NFT license to be included inside the source License.md file. Used together or independently, the licensed RAIR codebase allows developers to build their own independent NFT marketplace and DRM infrastructure with all relevant smart contracting, account creation, and scalable offchain cloud management logic.
+> The RAIR web3 infrastructure stack enables the creation of scalable Dapps through an open token licensing model. The RAIR open token license inherits the Apache 2.0 methodology by requiring an NFT license to be included inside the source License.md file. Used together or independently, the licensed RAIR codebase allows developers to build their own independent NFT marketplace and DRM infrastructure with all relevant smart contracting, account creation, and scalable offchain cloud management logic.
 
 Table of Contents
 =================
@@ -46,12 +46,12 @@ In the web2 era, proprietary moats developed using the underlying rails of HTTP:
 ### State of Web3 [1.2]
 With the rise of public persistent data (aka blockchain) the monetization of open source entered a new "Web3" era. 
 
-Developers believing in the protocol, for the first time could be compensated in the native unit of the protocol. Either by purchasing tokens directly, or through increasingly sophisticated grant mechanisms. By 2016, this thesis was codified into the seminal blog post "Fat Protocols [2](#References) where the author posits open source protocol tokens will solve the Redhat vs Linux compensation and incentive issue. 
+Developers believing in the protocol, for the first time, could be compensated in the native unit of the protocol. Either by purchasing tokens directly, or through increasingly sophisticated grant mechanisms. By 2016, this thesis was codified into the seminal blog post "Fat Protocols [2](#References) where the author posits open source protocol tokens will solve the Redhat vs Linux compensation and incentive issue. 
 
 Fast forward to 2024, and it is mandatory for the core protocol layers of Web3 (L1/L2 blockchains, Oracles, DA, Restaking, etc) to be open source to be trusted. //However// the Dapps built on top of Web3 are largely NOT. The VC model to fund teams that take open source infrastructure to then build proprietary business logic moats on top of is still alive and well.[3](#References)  Conjecture.. the development of Web3 killer Dapps is being stymied by this proprietary smothering.  
 
 ### RAIR [1.3]
-The RAIR protocol has been in active development since 2019 as an investor backed enterprise SaaS product. In 2024, the entire RAIR Codebase is available for the first time via an open source Apache 2.0[4](#References) token licensing model.
+The RAIR protocol has been in active development since 2019 as an investor backed enterprise SaaS product. In 2024, the entire RAIR Codebase will be available for the first time via an open source Apache 2.0[4](#References) token licensing model.
 
 Throughout this whitepaper, we will articulate our reasoning for going fully open source, and expound upon our token licensing model to reward the development of the RAIR token supported Dapp layer.  
 
@@ -60,7 +60,7 @@ Throughout this whitepaper, we will articulate our reasoning for going fully ope
 ## 2. RAIR Open Source Codebase
 The RAIR codebase comprises 6 primary microservices that help Dapps deploy and scale. Used together or independently, this code base allows developers to build their own independent NFT marketplace and DRM infrastructure with all relevant smart contracting, account creation, and scalable offchain cloud management logic. 
 
-All source code and a full explanation of functionality is available on the RAIRprotocol Github. github.com/rairprotocol
+All source code and a full explanation of functionality are available on the RAIRprotocol Github. github.com/rairprotocol
 
 ### RAIRsolidity [2.1]
 Granular onchain NFT minting, royalty, resale, fungible token credit, and marketplace logic via ERC2535 upgradeable diamond multi-proxy contracts. Native EVM support for mainnet ETH, Astar, BSC, Matic + Testnets. Documentation for needed OpenZeppelin, Hardhat, etc deployment. Fully verified on Etherscan and relevant block explorers.
@@ -101,7 +101,7 @@ While not exhaustive, the following permissive licenses are the most widely used
 ### Apache 2.0 [3.3]
 The Apache 2.0 license requires two critical components necessary for an NFT open licensing model.
 * Public Changelog. If code is modified, publish the modifications publicly. 
-* Inherited disclosure of license.Include the //***original***// License.md file into all derivative works. 
+* Inherited disclosure of license. Include the //***original***// License.md file into all derivative works. 
 
 Taken together, these two properties form the basis for the RAIR protocol NFT license model. *E.g. Open source license is valid as long as a valid NFT exists inside of the license.md* 
 
